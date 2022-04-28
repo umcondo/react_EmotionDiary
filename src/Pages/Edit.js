@@ -6,9 +6,9 @@ const Edit = () => {
   const navigate = useNavigate();
 
   const id = searchParams.get("id");
-  console.log("id:", id);
+  // console.log("id:", id);
   const mode = searchParams.get("mode");
-  console.log("mode : ", mode);
+  // console.log("mode : ", mode);
   return (
     <div>
       <h1>Edit</h1>
